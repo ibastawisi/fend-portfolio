@@ -13,8 +13,6 @@ html {
 /* Global style */
 body {
   background-color: #fafbfc;
-  color: #2d3c49;
-  font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   padding: 0 10px;
   max-width: 960px;
@@ -28,6 +26,7 @@ img {
 a {
   text-decoration: none;
   color: #2d3c49;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -43,12 +42,18 @@ header img {
   border-radius: 50%;
   align-self: center
 }
+
+.header-text {
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+}
+
 header h1 {
   font-size: 1.5em;
-  font-weight: 300;
-  text-transform: uppercase;
+  font-weight: 400;
   margin-bottom: 10px;
 }
+
 header p {
   text-transform: uppercase;
   text-align: end;
@@ -79,13 +84,15 @@ header p {
 
 .featured {
   font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   font-size: 1.25em;
   color: #7d97ad;
   text-transform: capitalize;
 }
+
 .project-title {
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 1.25em;
 }
 
@@ -105,6 +112,7 @@ header p {
   .featured {
     font-size: 1.5em;
   }
+}
 
 @media (min-width: 768px) {
   body {
